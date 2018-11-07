@@ -1,0 +1,67 @@
+{
+  "name": "hcc_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "autoprefixer": "^7.1.6",
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.7",
+    "fullpage.js": "^2.9.4",
+    "geolocator": "^2.1.1",
+    "jquery": "^3.2.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "semantic-ui": "^2.2.13",
+    "slick": "^1.12.2",
+    "slick-carousel": "^1.8.1",
+    "style-loader": "^0.19.0",
+    "vue": "^2.5.2",
+    "vue-loader": "^13.3.0",
+    "vue-slick": "^1.1.12",
+    "vue-template-compiler": "^2.5.2",
+    "webpack": "^3.7.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-env": "^1.6.0",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.8.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "file-loader": "^1.1.5",
+    "img-loader": "^2.0.0",
+    "postcss-loader": "^2.0.8",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "uglifyjs-webpack-plugin": "^1.0.0-beta.3",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.7.1",
+    "webpack-dev-server": "^2.9.1",
+    "webpack-manifest-plugin": "^1.3.2"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=dev webpack",
+    "prod": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cp -R node_modules/semantic-ui/dist/* public/semantic/dist/ && cp -R node_modules/fullpage.js/dist/* public/fullpage/ && cp -R node_modules/semantic-ui-range/* public/semantic/ && cp -R node_modules/slick-carousel/slick/slick.min.js public/js/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaphaelSalique/hcc_site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaphaelSalique/hcc_site/issues"
+  },
+  "homepage": "https://github.com/RaphaelSalique/hcc_site#readme"
+}
+

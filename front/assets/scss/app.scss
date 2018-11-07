@@ -1,0 +1,319 @@
+body{
+  margin: 0 !important;
+  background: white !important;
+}
+
+@font-face {
+  font-family: 'title-font';
+  src: url('../fonts/DroidSerif.ttf') format('truetype')
+}
+
+.italic{
+  font-family: 'bld' !important;
+  p{
+    font-family: 'bld' !important;
+  }
+}
+
+.othertxt{
+  font-family: 'title-font' !important;
+}
+
+*{
+}
+
+.centered-window-10{
+  top: 10vh;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.centered-window-15{
+  top: 15vh;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+.centered-window-20{
+  top: 20vh;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.centered-window-30{
+  top: 30vh;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.centered-window-35{
+  top: 35vh;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.centered-window-40{
+  top: 40vh;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.centered-window-50{
+  top: 50vh;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.clicked{
+  cursor: pointer;
+}
+
+.under{
+  text-decoration: underline;
+  text-underline-position: under
+}
+
+.black{
+  color: black !important;
+}
+
+.red{
+  color: #DB2828 !important;
+}
+
+.use-shadow{
+  text-shadow: 2px 2px 2px black;
+}
+
+.up-1{
+  top: 1vh;
+  position: relative;
+}
+
+.up-2{
+  top: 2vh;
+  position: relative !important;
+}
+
+.up-3{
+  top: 3vh;
+  position: relative;
+}
+
+.up-5{
+  top: 5vh;
+  position: relative !important;
+}
+
+.up-8{
+  top: 8vh;
+  position: relative;
+}
+
+.up-9{
+  top: 9vh;
+  position: relative !important;
+}
+
+.up-10{
+  position: relative;
+  top: 10vh !important;
+}
+
+.up-12{
+  position: relative !important;
+  top: 12vh;
+}
+
+.up-13{
+  position: relative !important;
+  top: 13vh;
+}
+
+.up-14{
+  position: relative;
+  top: 14vh;
+}
+
+.up-15{
+  position: relative;
+  top: 15vh;
+}
+
+.up-19{
+  position: relative !important;
+  top: 19vh;
+}
+
+.up-20{
+  position: relative !important;
+  top: 20vh;
+}
+
+.up-22{
+  position: relative !important;
+  top: 22vh;
+}
+
+.up-25{
+  position: relative !important;
+  top: 25vh;
+}
+
+.up-35{
+  position: relative;
+  top: 35vh;
+}
+
+.relative{
+  position: relative !important;
+}
+
+.left-5vw{
+  padding-left: 5vw
+}
+
+.overflow{
+  overflow: scroll;
+  overflow-x: auto
+}
+
+.hidden-vis{
+  visibility: hidden;
+}
+
+.cancelmargin{
+  margin: 0 !important;
+}
+
+.gray{
+  color: gray !important;
+}
+
+.white{
+  color: white !important;
+}
+
+.align-left{
+  text-align: left;
+}
+
+.upper{
+  text-transform: uppercase !important;
+}
+
+.align-right{
+  text-align: right;
+}
+
+.align{
+  text-align: center;
+}
+
+.inline{
+  display: inline-block !important;
+}
+
+button span p{
+  margin: -.4rem !important;
+}
+
+.not-allowed{
+  cursor: not-allowed !important;
+}
+
+.bg-white{
+  background: white !important;
+}
+
+.block{
+  display: block
+}
+
+.no-pad{
+  padding: 0 !important;
+}
+
+.none{
+  display: none
+}
+
+.infos{
+  text-transform: uppercase;
+  font-size: 1.4vh;
+  strong {
+    font-size: 1.8vh;
+  }
+}
+
+.ui.button.btn-video {
+  background: #fff;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #000;
+  font-size: 1.4vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.ui.button.back {
+  padding: 1vh;
+  background: white;
+  font-weight: 600;
+  box-shadow: 5px 1px 10px rgba(0,0,0, .3);
+  color: black;
+  border-radius:  5px;
+}
+
+.inline{
+	display: inline-block !important;
+}
+
+.ui.button.facebook {
+  text-transform: uppercase;
+}
+
+.ui.button, .infos {
+  letter-spacing: 1px;
+}
+
+.special-red {
+  background: #DB2828;
+}
+
+i.huge.very-huge.icon {
+  font-size: 6em;
+}
+
+.tablerow {
+  display: table-row;
+  > * {
+    margin-bottom: 2vh !important;
+    display: table-cell;
+  }
+}
+
+.ttpp{
+	top: 5vh;
+}
