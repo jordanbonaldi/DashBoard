@@ -1,3 +1,5 @@
+![alt text](https://github.com/jordanbonaldi/DashBoard/raw/master/doc/dashboard.png)
+
 ## DashBoard
 
 
